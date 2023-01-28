@@ -1,4 +1,4 @@
-def entry_creator(entry_title, entry_date, entry_time, entry_path):
+def create_entry(entry_title, entry_date, entry_time, entry_path):
     # create template according to this format:
     #	Date:	28 January 2023 at 1:48:56 PM SGT
 	#   Location:	Yale NUS College, Singapore
@@ -20,4 +20,4 @@ def entry_creator(entry_title, entry_date, entry_time, entry_path):
     text_file.close()
 
 # test
-entry_creator("TB1", "28 January 2023", "1:48:56 PM SGT", "/Users/jakobnunnendorf/Github/DayOne-templates/test")
+#create_entry("TB1", "28 January 2023", "1:48:56 PM SGT", "/Users/jakobnunnendorf/Github/DayOne-templates/test")
