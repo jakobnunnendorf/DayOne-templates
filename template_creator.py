@@ -37,8 +37,6 @@ body = "TB1\n\nTLDR:\n\nResults:\n\nComments:\n\n"
 # create the template
 template = first_line + second_line + body
 
-
-
 print(template)
 
 text_file = open("/Users/jakobnunnendorf/Github/DayOne-templates/test/first_ouput.txt", "w")
@@ -48,4 +46,3 @@ text_file.write(template)
  
 #close file
 text_file.close()
-
